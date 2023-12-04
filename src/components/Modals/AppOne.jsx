@@ -50,8 +50,8 @@ const AppOne = () => {
               <FaStar />
               <FaStar />
               <FaStar />
+              <FaStar />
               <FaRegStarHalfStroke />
-              <FaRegStar />
             </div>
           </div>
 

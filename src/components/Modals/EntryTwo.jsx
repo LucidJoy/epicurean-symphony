@@ -45,8 +45,8 @@ const EntryTwo = () => {
               <FaStar />
               <FaStar />
               <FaStar />
-              <FaRegStarHalfStroke />
-              <FaRegStar />
+              <FaStar />
+              <FaStar />
             </div>
           </div>
 

@@ -57,12 +57,11 @@ Follow these steps to start the project:
 ## Project Structure
 
 - **frontend:** Contains the ReactJS frontend code.
-- **backend:** Houses the backend server code.
+- **backend:** Houses the backend server code written in NodeJS.
 
 ## Technologies Used
 
 - ReactJS
-- Figma (for UI/UX design)
 - Node.js (backend server)
 - Nodemon (for server maintenance)
 

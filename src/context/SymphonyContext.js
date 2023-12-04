@@ -12,6 +12,8 @@ export const SymphonyProvider = ({ children }) => {
   const [mainOptions, setMainOptions] = useState([]);
   const [entryOneModal, setEntryOneModal] = useState(false);
   const [entryTwoModal, setEntryTwoModal] = useState(false);
+  const [dessertOneModal, setDessertOneModal] = useState(false);
+  const [dessertTwoModal, setDessertTwoModal] = useState(false);
 
   const [selectedItem, setSelectedItem] = useState("Artisanal Appetizers");
 
@@ -54,6 +56,10 @@ export const SymphonyProvider = ({ children }) => {
         setEntryOneModal,
         entryTwoModal,
         setEntryTwoModal,
+        dessertOneModal,
+        setDessertOneModal,
+        dessertTwoModal,
+        setDessertTwoModal,
       }}
     >
       {children}

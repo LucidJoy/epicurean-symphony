@@ -9,11 +9,12 @@ const Food = ({ tag }) => {
     restaurantData,
     setSeasonOneModal,
     setSeasonTwoModal,
-    appOneModal,
     setAppOneModal,
     setApptwoModal,
     setEntryOneModal,
     setEntryTwoModal,
+    setDessertOneModal,
+    setDessertTwoModal,
   } = useContext(SymphonyContext);
 
   return (
@@ -180,7 +181,7 @@ const Food = ({ tag }) => {
               <p
                 className='app__specialMenu-know_more'
                 onClick={() => {
-                  setSeasonOneModal(true);
+                  setDessertOneModal(true);
                 }}
               >
                 Know More
@@ -212,7 +213,7 @@ const Food = ({ tag }) => {
               <p
                 className='app__specialMenu-know_more'
                 onClick={() => {
-                  setSeasonTwoModal(true);
+                  setDessertTwoModal(true);
                 }}
               >
                 Know More

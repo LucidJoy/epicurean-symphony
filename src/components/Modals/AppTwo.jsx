@@ -48,7 +48,7 @@ const AppTwo = () => {
             <div>
               <FaStar />
               <FaStar />
-              <FaRegStarHalfStroke />
+              <FaStar />
               <FaRegStar />
               <FaRegStar />
             </div>

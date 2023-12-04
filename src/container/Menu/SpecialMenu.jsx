@@ -13,6 +13,8 @@ import {
   AppTwo,
   EntryOne,
   EntryTwo,
+  DessertOne,
+  DessertTwo,
 } from "../../components";
 import { images, data } from "../../constants";
 import "./SpecialMenu.css";
@@ -28,6 +30,8 @@ const SpecialMenu = () => {
     apptwoModal,
     entryOneModal,
     entryTwoModal,
+    dessertOneModal,
+    dessertTwoModal,
   } = useContext(SymphonyContext);
 
   useEffect(() => {
@@ -38,7 +42,9 @@ const SpecialMenu = () => {
         appOneModal ||
         apptwoModal ||
         entryOneModal ||
-        entryTwoModal
+        entryTwoModal ||
+        dessertOneModal ||
+        dessertTwoModal
     );
 
     return () => {
@@ -51,6 +57,8 @@ const SpecialMenu = () => {
     apptwoModal,
     entryOneModal,
     entryTwoModal,
+    dessertOneModal,
+    dessertTwoModal,
   ]);
 
   return (
@@ -62,6 +70,8 @@ const SpecialMenu = () => {
         {apptwoModal && <AppTwo />}
         {entryOneModal && <EntryOne />}
         {entryTwoModal && <EntryTwo />}
+        {dessertOneModal && <DessertOne />}
+        {dessertTwoModal && <DessertTwo />}
 
         <div className='app__specialMenu-title'>
           <SubHeading title='A Culinary Journey Through the Seasons' />

@@ -34,6 +34,8 @@ import mangotango2 from "../assets/mangotango2.jpeg";
 import truffle2 from "../assets/truffle2.jpeg";
 import tikka2 from "../assets/tikka2.jpeg";
 import ribeye2 from "../assets/ribeye2.jpeg";
+import choco2 from "../assets/choco2.png";
+import cheese2 from "../assets/cheese2.jpeg";
 
 export default {
   bg,
@@ -72,4 +74,6 @@ export default {
   truffle2,
   tikka2,
   ribeye2,
+  choco2,
+  cheese2,
 };

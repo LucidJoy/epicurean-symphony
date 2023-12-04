@@ -12,6 +12,8 @@ import AppOne from "./Modals/AppOne";
 import AppTwo from "./Modals/AppTwo";
 import EntryOne from "./Modals/EntryOne";
 import EntryTwo from "./Modals/EntryTwo";
+import DessertOne from "./Modals/DessertOne";
+import DessertTwo from "./Modals/DessertTwo";
 
 export {
   SubHeading,
@@ -28,4 +30,6 @@ export {
   AppTwo,
   EntryOne,
   EntryTwo,
+  DessertOne,
+  DessertTwo,
 };
